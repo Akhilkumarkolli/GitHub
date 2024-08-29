@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .experience, .education {
+            margin-bottom: 10px;
+        }
+        .experience h3, .education h3 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <p>Email: your.email@example.com | Phone: (123) 456-7890 | LinkedIn: linkedin.com/in/yourprofile</p>
+        </header>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Experienced Data Engineer with 5 years of expertise in building advanced data-driven solutions using SQL, Python, and AWS technologies. Adept at designing data pipelines, performing ETL operations, and leveraging cloud platforms for scalable data management.</p>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Senior Data Analyst - Amazon INC</h3>
+                <p>January 2021 - December 2022</p>
+                <p>Worked extensively with claims-related data, implementing data processing pipelines and enhancing data accuracy and insights.</p>
+            </div>
+            <div class="experience">
+                <h3>Data Analyst - Zen3 InfoSolutions</h3>
+                <p>June 2019 - December 2020</p>
+                <p>Engaged in Data Validation on Satori Database and Knowledge Card Project for Microsoft, ensuring data integrity and quality.</p>
+            </div>
+            <div class="experience">
+                <h3>System Analyst - Cognizant Technologies Services</h3>
+                <p>June 2018 - May 2019</p>
+                <p>Worked on various system analysis tasks for UBS, contributing to the efficiency and effectiveness of their data systems.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Your Degree - Your University</h3>
+                <p>Year of Graduation</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>AWS (S3, Glue, Lambda, Redshift, etc.)</li>
+                <li>Data Pipeline Design</li>
+                <li>ETL Operations</li>
+                <li>Data Visualization (AWS QuickSight)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>AWS Data Engineer</li>
+                <li>AWS Developer</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
